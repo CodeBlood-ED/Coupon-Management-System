@@ -24,6 +24,10 @@ __Implemented RestAPIs (so far) :__
 
 * POST __/api/coupons/apply-coupon/{type}/{id}__ : Upon clicking on the `Apply Coupons` button customer will see all the applicable coupons with an `Apply` button. By clicking Apply, Frontend will form a POST request with type and id as path variable. This api is capable of calculating total_price, total_discount and final_price (_after applying discount as per coupon_). Finally in the response we will get to see the updated cart.
 
+* Introduced "expiry_in" attribute in POST __/api/coupons__ endpoint request body. When creating a coupon admin can add expires in days value to set expiry of a specific coupon. In service layer after calculating the expiry date and time, teh value will get persisted in the database. While applying coupons validation is set to check if coupon is expired or not.
+
+* Introduced "expiration_date" field of type `LocalDateTime()` to validate expiry of coupons in . At the time of creating coupons admin will have option to set expiration date for each coupon.
+
 > Note : I was only able to implement above mentioned Restful api endpoints so far and I will continue implementing and updating the endpoints in future.
 
 ___
@@ -35,8 +39,6 @@ __Unimplemented RestAPIs and Functionalities:__
 * GET __/api/coupons/bxgy :__ The implementaion of fetching a bxgy type coupon which includes deserialization of List<Product> object which I am sure I will be able to implement and further update the functionality of the endpoint.
 
 * GET __/api/coupons/apply-coupon/bxgy/1 :__ In order to apply a bxgy type coupon again we need to fetch applicable by=xgy coupons and do calculations on it.
-
-1. Introduced expiration_date field of type `Date()` to validate expiry of coupons in . At the time of creating coupons admin will have option to set expiration date for each coupon.
 
 
 
