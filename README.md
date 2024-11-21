@@ -6,7 +6,7 @@ new types of coupons in the future.
 
 __Teachnologies used :__
 
-Java, Springboot, MySQL
+Java, Springboot, Spring Data JPA, MySQL
 
 __Database schema :__
 
