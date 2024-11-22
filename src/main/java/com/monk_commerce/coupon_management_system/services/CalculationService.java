@@ -6,10 +6,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.monk_commerce.coupon_management_system.models.CartWiseCoupon;
+import com.monk_commerce.coupon_management_system.entities.CartWiseCoupon;
+import com.monk_commerce.coupon_management_system.entities.ProductWiseCoupon;
 import com.monk_commerce.coupon_management_system.models.CouponObj;
 import com.monk_commerce.coupon_management_system.models.Items;
-import com.monk_commerce.coupon_management_system.models.ProductWiseCoupon;
 import com.monk_commerce.coupon_management_system.repositories.CartWiseCouponRepository;
 import com.monk_commerce.coupon_management_system.repositories.ProductWiseCouponRepository;
 

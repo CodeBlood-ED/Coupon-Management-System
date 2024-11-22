@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.monk_commerce.coupon_management_system.models.ProductWiseCoupon;
+import com.monk_commerce.coupon_management_system.entities.ProductWiseCoupon;
 
 @Repository
 public interface ProductWiseCouponRepository extends JpaRepository<ProductWiseCoupon,Long> {

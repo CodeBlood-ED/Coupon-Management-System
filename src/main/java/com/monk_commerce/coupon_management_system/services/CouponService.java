@@ -9,12 +9,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.monk_commerce.coupon_management_system.models.BxGyWiseCoupon;
+import com.monk_commerce.coupon_management_system.entities.BxGyWiseCoupon;
+import com.monk_commerce.coupon_management_system.entities.CartWiseCoupon;
+import com.monk_commerce.coupon_management_system.entities.ProductWiseCoupon;
 import com.monk_commerce.coupon_management_system.models.Cart;
-import com.monk_commerce.coupon_management_system.models.CartWiseCoupon;
 import com.monk_commerce.coupon_management_system.models.Coupon;
 import com.monk_commerce.coupon_management_system.models.Items;
-import com.monk_commerce.coupon_management_system.models.ProductWiseCoupon;
 import com.monk_commerce.coupon_management_system.models.RequestEntityObjCart;
 import com.monk_commerce.coupon_management_system.models.ResponseObjectEntityForCoupon;
 import com.monk_commerce.coupon_management_system.models.UpdatedCart;
