@@ -1,4 +1,4 @@
-## <p style="text-align:center">__Coupon Management System by Monk Commerce__</p>
+## <p style="text-align:center">__Coupon Management System__</p>
 
 This task has been given to me by ___Monk Commerce___. The Task is to Build a RESTful API to manage and apply different types of discount coupons
 (cart-wise, product-wise, and BxGy) for an e-commerce platform, with the ability to easily add
