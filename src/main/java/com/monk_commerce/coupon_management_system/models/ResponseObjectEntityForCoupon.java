@@ -1,5 +1,8 @@
 package com.monk_commerce.coupon_management_system.models;
 
+import com.monk_commerce.coupon_management_system.entities.CartWiseCoupon;
+import com.monk_commerce.coupon_management_system.entities.ProductWiseCoupon;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

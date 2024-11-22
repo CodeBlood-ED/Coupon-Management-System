@@ -1,4 +1,4 @@
-package com.monk_commerce.coupon_management_system.models;
+package com.monk_commerce.coupon_management_system.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

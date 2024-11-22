@@ -1,4 +1,4 @@
-package com.monk_commerce.coupon_management_system.models;
+package com.monk_commerce.coupon_management_system.entities;
 
 import java.io.IOException;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.List;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.monk_commerce.coupon_management_system.models.Product;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

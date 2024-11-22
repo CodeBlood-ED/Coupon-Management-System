@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.monk_commerce.coupon_management_system.models.CartWiseCoupon;
+import com.monk_commerce.coupon_management_system.entities.CartWiseCoupon;
 
 import jakarta.transaction.Transactional;
 
